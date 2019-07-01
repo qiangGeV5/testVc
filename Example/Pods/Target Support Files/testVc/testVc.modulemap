@@ -1,0 +1,6 @@
+framework module testVc {
+  umbrella header "testVc-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "testVc",
+  "version": "0.1.0",
+  "summary": "A short description of testVc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qiangGeV5/testVc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qiangGeV5": "qianggev5@126.com"
+  },
+  "source": {
+    "git": "https://github.com/qiangGeV5/testVc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testVc/Classes/**/*"
+}

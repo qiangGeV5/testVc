@@ -13,7 +13,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* ZQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ZQAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* ZQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZQViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -21,8 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		84F74AE822C9B9E200F2B57F /* ZQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F74AE722C9B9E200F2B57F /* ZQAppDelegate.m */; };
 		DB1E8668FA37C602D8D15BAC /* Pods_testVc_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F912DEE564F316884EBBEACB /* Pods_testVc_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +38,7 @@
 		0876B8DE8300E9D33954852B /* Pods-testVc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVc_Tests.debug.xcconfig"; path = "Target Support Files/Pods-testVc_Tests/Pods-testVc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		304FF73E05DCB39F18CA1B8F /* Pods-testVc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVc_Example.release.xcconfig"; path = "Target Support Files/Pods-testVc_Example/Pods-testVc_Example.release.xcconfig"; sourceTree = "<group>"; };
 		33850FE38F2B230760AD3B7D /* Pods-testVc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVc_Tests.release.xcconfig"; path = "Target Support Files/Pods-testVc_Tests/Pods-testVc_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		582825DED789C6FD04403604 /* testVc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testVc.podspec; path = ../testVc.podspec; sourceTree = "<group>"; };
+		582825DED789C6FD04403604 /* testVc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testVc.podspec; path = ../testVc.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* testVc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testVc_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +47,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* testVc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testVc-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* ZQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* ZQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* ZQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* ZQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -60,10 +56,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3D5141B0BC54D829A84D419 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DD82700C3F74C19AE3753CDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		84F74AE622C9B9E200F2B57F /* ZQAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQAppDelegate.h; sourceTree = "<group>"; };
+		84F74AE722C9B9E200F2B57F /* ZQAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQAppDelegate.m; sourceTree = "<group>"; };
+		B3D5141B0BC54D829A84D419 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DD82700C3F74C19AE3753CDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E0DA948921CDB90A60570EED /* Pods-testVc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testVc_Example.debug.xcconfig"; path = "Target Support Files/Pods-testVc_Example/Pods-testVc_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F912DEE564F316884EBBEACB /* Pods_testVc_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testVc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F917649628483DB9DF63AC30 /* Pods_testVc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testVc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,12 +128,10 @@
 		6003F593195388D20070C39A /* Example for testVc */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* ZQAppDelegate.h */,
-				6003F59D195388D20070C39A /* ZQAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZQViewController.h */,
+				84F74AE622C9B9E200F2B57F /* ZQAppDelegate.h */,
+				84F74AE722C9B9E200F2B57F /* ZQAppDelegate.m */,
 				6003F5A6195388D20070C39A /* ZQViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -193,7 +187,6 @@
 				0876B8DE8300E9D33954852B /* Pods-testVc_Tests.debug.xcconfig */,
 				33850FE38F2B230760AD3B7D /* Pods-testVc_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +242,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = qiangGeV5;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XWNPFKK4U5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +255,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,8 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -391,8 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* ZQAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZQViewController.m in Sources */,
+				84F74AE822C9B9E200F2B57F /* ZQAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,14 +425,6 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -521,6 +508,7 @@
 			baseConfigurationReference = E0DA948921CDB90A60570EED /* Pods-testVc_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testVc/testVc-Prefix.pch";
 				INFOPLIST_FILE = "testVc/testVc-Info.plist";
@@ -537,6 +525,7 @@
 			baseConfigurationReference = 304FF73E05DCB39F18CA1B8F /* Pods-testVc_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XWNPFKK4U5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testVc/testVc-Prefix.pch";
 				INFOPLIST_FILE = "testVc/testVc-Info.plist";
